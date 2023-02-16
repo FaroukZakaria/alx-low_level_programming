@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	double ans = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	char ans = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 		return (ans);
 	return (1);
 }
