@@ -15,7 +15,7 @@ int main() {
 	printf("Size of an int: %zu byte(s)", sizeof(I));
 	printf("Size of a long int: %zu byte(s)", sizeof(L));
 	printf("Size of a long long int: %zu byte(s)", sizeof(LL));
-	printf("Size of a float: %zu byte(s)", sizeof(F);
+	printf("Size of a float: %zu byte(s)", sizeof(F));
 	return (0);
 }
 	
