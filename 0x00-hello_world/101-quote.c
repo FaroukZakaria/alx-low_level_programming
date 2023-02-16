@@ -6,7 +6,6 @@
 
 int main(void)
 {
-	char ans = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-		return (ans);
+	return("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 	return (1);
 }
