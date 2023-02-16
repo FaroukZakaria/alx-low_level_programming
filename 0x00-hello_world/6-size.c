@@ -5,7 +5,8 @@
 *Return: Always 0 (Success)
 */
 
-int main() {
+int main()
+{
 	char C;
 	int I;
 	long L;
@@ -18,4 +19,3 @@ int main() {
 	printf("Size of a float: %zu byte(s)", sizeof(F));
 	return (0);
 }
-	
