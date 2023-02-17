@@ -14,7 +14,7 @@ int main(void)
 			int lower_x = tolower(x);
 				if (lower_x == 'e' || lower_x == 'q')
 				{
-					x++;
+				void
 				}
 				else
 				{
