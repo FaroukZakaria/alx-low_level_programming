@@ -12,7 +12,7 @@ int main(void)
 		for (x = 'A'; x <= 'Z'; x++)
 		{
 			int lower_x = tolower(x);
-				if (lower_x = 101 || lower_x = 113)
+				if (lower_x == 'e' || lower_x == 'q')
 				{
 					x++;
 				}
