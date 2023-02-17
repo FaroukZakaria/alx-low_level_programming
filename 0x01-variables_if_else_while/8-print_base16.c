@@ -12,7 +12,7 @@ int main(void)
 		{
 			putchar(n);
 		}
-		for (n = 65; n < 91; n++)
+		for (n = 'a'; n < 'g'; n++)
 		{
 			putchar(n);
 		}
