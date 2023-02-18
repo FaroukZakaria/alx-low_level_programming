@@ -11,11 +11,12 @@ int main(void)
 	int b;
 		for (a = 48, b = 48; a < 58;)
 		{
-			putchar(a);
 			if (b < 58)
 			{
+				putchar(a);
 				putchar(b);
-				putchar(", ");
+				putchar(',');
+				putchar(' ');
 				b++;
 			}
 			else
@@ -24,6 +25,5 @@ int main(void)
 				a++;
 			}
 		}
-		putchar('\n');
 		return (0);
 }
