@@ -15,8 +15,11 @@ int main(void)
 			{
 				putchar(a);
 				putchar(b);
-				putchar(',');
-				putchar(' ');
+				if (a < 57, b < 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 				b++;
 			}
 			else if (b < 58 && a == b)
