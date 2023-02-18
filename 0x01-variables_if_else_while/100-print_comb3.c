@@ -21,7 +21,7 @@ int main(void)
 			}
 			else if (b < 58 && a == b)
 			{
-				continue;
+				b++;
 			}
 			else
 			{
@@ -29,5 +29,6 @@ int main(void)
 				a++;
 			}
 		}
+		putchar('\n');
 		return (0);
 }
