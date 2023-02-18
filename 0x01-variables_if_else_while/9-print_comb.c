@@ -15,7 +15,7 @@ int main(void)
 			if (b < 58)
 			{
 				putchar(b);
-				putchar(', ');
+				putchar(", ");
 				b++;
 			}
 			else
@@ -24,5 +24,6 @@ int main(void)
 				a++;
 			}
 		}
+		putchar('\n');
 		return (0);
 }
