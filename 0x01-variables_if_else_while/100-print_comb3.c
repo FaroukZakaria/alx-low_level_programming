@@ -19,7 +19,7 @@ int main(void)
 				putchar(' ');
 				b++;
 			}
-			else if (b < 58 && a = b)
+			else if (b < 58 && a == b)
 			{
 				continue;
 			}
