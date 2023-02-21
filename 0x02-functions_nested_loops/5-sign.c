@@ -16,10 +16,6 @@ int print_sign(int n)
 		return (0);
 		_putchar('0');
 	}
-	else if (n < 0)
-	{
-		return -1;
-		_putchar('-');
-	}
-	return void
+	return -1;
+	_putchar('-');
 }
