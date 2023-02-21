@@ -8,7 +8,7 @@ int _abs(int a)
 {
 	if (a < 0)
 	{
-		a = -a
+		a = -a;
 		_putchar(a);
 	}
 	return (a);
