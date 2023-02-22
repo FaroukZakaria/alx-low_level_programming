@@ -11,11 +11,11 @@ int main(void)
 		{
 			if (i == 0)
 			{
-				printf("%d, ", i);
+				printf("%ld, ", j);
 			}
 			else if (i == 1)
 			{
-				printf("%d, ", i);
+				printf("%ld, ", k);
 			}
 			else
 			{
