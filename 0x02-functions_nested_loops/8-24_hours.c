@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * jack_bauer - hoi
- * @a: hoi
  * Return: do i need it?
  */
 void jack_bauer(void)
