@@ -4,12 +4,13 @@
  * main - hoi
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	int plus;
 	unsigned long f1 = 0, f2 = 1, sum;
 	unsigned long f1h1, f1h2, f2h1, f2h2;
-		for (plus = 0; plus < 92; plus++) //LOOL
+	unsigned long h1, h2;
+		for (plus = 0; plus < 92; plus++)
 		{
 			sum = f1 + f2;
 			printf("%lu, ", sum);

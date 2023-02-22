@@ -3,7 +3,7 @@
  * main - hoi
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	int i, z = 0;
 		for (i = 0; i < 1024; i++)

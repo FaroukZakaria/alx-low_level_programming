@@ -3,7 +3,7 @@
  * main - hoi
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	int i;
 	long j = 1, k = 2;
@@ -21,7 +21,7 @@ int main (void)
 			{
 				k += j;
 				j = k - j;
-				printf("%d, ", k);
+				printf("%ld, ", k);
 			}
 		}
 		printf("\n");
