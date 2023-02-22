@@ -3,7 +3,7 @@
  * main - hoi
  * Return: 0
  */
-int main(void)
+int main (void)
 {
 	int i;
 	long j = 1, k = 2;
