@@ -9,7 +9,7 @@ void jack_bauer(void)
 	int a, b, c, d;
 		for (a = 48; a < 51; a++)
 		{
-		for (b = 48; b < 59; b++)
+		for (b = 48; b < 58; b++)
 		{
 		if ((a <= 50 && b <= 51) || (a <= 49 && b <= 58))
 		{
