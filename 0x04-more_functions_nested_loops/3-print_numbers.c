@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_numbers - hoi
+ * @i: bruh
  */
 void print_numbers(void)
 {
