@@ -3,7 +3,6 @@
 /**
  * main - Entry point
  * Return: Always 0 (Success)
- * @n: imma kill somebody if this worked
  */
 int main(void)
 {
