@@ -11,7 +11,7 @@ void more_numbers(void)
 			{
 				_putchar(j);
 			}
-			if (i != 9)
+			if (i < 9)
 			{
 				_putchar('\n');
 			}
