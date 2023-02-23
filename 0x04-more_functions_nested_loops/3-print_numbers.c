@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_numbers - hoi
- * Return: nothing
+ * Return: 0
  * @i: hoi
  */
 void print_numbers(int i)
@@ -11,4 +11,5 @@ void print_numbers(int i)
 		_putchar(i);
 	}
 	_putchar('\n');
+	return (0);
 }
