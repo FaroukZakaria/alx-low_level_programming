@@ -23,7 +23,7 @@ int main(void)
 		}
 		else
 		{
-		printf("%c", n);
+		printf("%d", n);
 		}
 		if (n != 100)
 		{
