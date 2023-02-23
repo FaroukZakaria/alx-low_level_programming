@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print_square - f
- * @size: big
  */
 void print_square(int size)
 {
