@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_most_numbers - 2 4 bad
+ * @i: istg
  */
 void print_most_numbers(void)
 {
