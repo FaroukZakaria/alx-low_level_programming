@@ -2,7 +2,6 @@
 /**
  * print_numbers - hoi
  * Return: 0
- * @i: hoi
  */
 void print_numbers(void)
 {
