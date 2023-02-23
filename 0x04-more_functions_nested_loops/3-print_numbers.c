@@ -4,12 +4,13 @@
  * Return: 0
  * @i: hoi
  */
-void print_numbers(int i)
+void print_numbers(void)
 {
-	for (i = 48; i < 58; i++)
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
-	return (0);
+	int i;
+		for (i = 48; i < 58; i++)
+		{
+			_putchar(i);
+		}
+		_putchar('\n');
+		return (0);
 }
