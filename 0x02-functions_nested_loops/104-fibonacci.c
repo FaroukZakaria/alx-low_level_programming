@@ -33,10 +33,10 @@ int main(void)
 			printf("%lu%lu", h1, h2);
 			if (plus != 98)
 				printf(", ");
-			f1h1 = h2h1;
+			f1h1 = f2h1;
 			f1h2 = f2h2;
 			f2h1 = h1;
-			h2 h2 = h2;
+			f2h2 = h2;
 		}
 		printf("\n");
 		return (0);
