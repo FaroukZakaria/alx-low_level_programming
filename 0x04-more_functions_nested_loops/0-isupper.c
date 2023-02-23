@@ -2,6 +2,7 @@
 /**
  * _isupper - hoi
  * Return: 0 and 1
+ * @c: bruh i hate this.. it always ruins my compiler
  */
 int _isupper(int c)
 {
