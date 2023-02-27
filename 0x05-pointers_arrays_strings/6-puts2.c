@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts2 - p
+ * puts2 - p
  * @str: str
  */
 void puts2(char *str)
