@@ -25,7 +25,7 @@ int main(void)
 			if ((sum - 2772) % 2 != 0)
 			{
 				mh1++;
-				for (i = 0; p[i]; i++)
+				for (i = 0; pw[i]; i++)
 				{
 					if (pw[i] >= (33 + mh1))
 					{
@@ -35,7 +35,7 @@ int main(void)
 				}
 				for (i = 0; pw[i]; i++)
 				{
-					if (pw[i] > = (33 + mh2))
+					if (pw[i] >= (33 + mh2))
 					{
 						pw[i] -= mh2;
 						break;
