@@ -2,7 +2,7 @@
 /**
  * _strlen - len
  * @s: s
- * Return: 0
+ * Return: c
  */
 int _strlen(char *s)
 {
@@ -11,5 +11,5 @@ int _strlen(char *s)
 		{
 			c++;
 		}
-		return (c);
+	return (c);
 }
