@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * *_strcpy - str
+ * _strcpy - bruh
+ * *_strcpy - bruh2
  * @dest: iny
  * @src: ode
  */
