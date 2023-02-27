@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _strcpy - bruh
- * *_strcpy - bruh2
  * @dest: iny
  * @src: ode
+ * Return: dest
  */
 char *_strcpy(char *dest, char *src)
 {
