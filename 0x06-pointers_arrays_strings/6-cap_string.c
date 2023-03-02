@@ -2,7 +2,7 @@
 /**
  * cap_string - s
  * @str: i hate this word
- * Return: your-
+ * Return: str
  */
 char *cap_string(char *str)
 {
