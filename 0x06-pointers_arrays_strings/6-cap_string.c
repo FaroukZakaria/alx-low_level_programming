@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * cap_string - s
- * @str: i hate this word
+ * str: i hate this word
  * Return: your-
  */
 char *cap_string(char *str)
