@@ -5,6 +5,7 @@
  * Return: str
  */
 char *cap_string(char *str)
+
 {
 	int a = 0;
 
