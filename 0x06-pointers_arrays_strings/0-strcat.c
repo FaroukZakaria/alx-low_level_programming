@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * *_strcat - boo
- * @*dest: hoi
- * @*src: hoi
+ * _strcat - boo
+ * @dest: hoi
+ * @src: hoi
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
