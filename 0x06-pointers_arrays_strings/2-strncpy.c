@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * strncpy - hoi
+ * _strncpy - hoi
  * @dest: hoi
- * @src: hoi
+ * @src: ho
+ * @n: ni-
  * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
