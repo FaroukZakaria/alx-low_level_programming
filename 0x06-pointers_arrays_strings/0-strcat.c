@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  * _strcat - boo
- * @dest: hi
- * @src: you suck
  */
 char *_strcat(char *dest, char *src)
 {
