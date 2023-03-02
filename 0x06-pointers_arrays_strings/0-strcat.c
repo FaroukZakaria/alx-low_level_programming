@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * _strcat - boo
+ * *_strcat - boo
+ * @*dest: hoi
+ * @*src: hoi
  */
 char *_strcat(char *dest, char *src)
 {
