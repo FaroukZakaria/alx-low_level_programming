@@ -7,22 +7,22 @@
  */
 char *_strchr(char *s, char c)
 {
-	int i, j, k;
+	int i, j;
+	int k = '\0';
 		while (s++)
 		{
 			j++;
 		}
 		for (i = 0; i < j; i++)
 		{
-			if (s[i] == 'c')
+			if (s[i] == c)
 			{
-				k = i;
-				break;
+				return (s);
 			}
-			if ((i = j) && (k != i))
+			if ((i == j) && (k != i))
 			{
-				k = NULL;
+				return ('\0');
 			}
 		}
-	return (k);
+	return (s);
 }
