@@ -19,9 +19,9 @@ char *_strchr(char *s, char c)
 				k = i;
 				break;
 			}
-			if ((i = j) && k != i)
+			if ((i = j) && (k != i))
 			{
-				k = 'NULL'
+				k = NULL;
 			}
 		}
 	return (k);
