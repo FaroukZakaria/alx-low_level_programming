@@ -3,6 +3,7 @@
  * _strspn - e
  * @s: s
  * @accept: a
+ * Return: boo
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -13,7 +14,7 @@ unsigned int _strspn(char *s, char *accept)
 			l = 0;
 			for (j = 0; accept[j] != '\0'; j++)
 			{
-				if (accept [j] == s[i])
+				if (accept[j] == s[i])
 				{
 					k++;
 					l = 1;
