@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strchr - s
  * @s: s
@@ -7,22 +8,13 @@
  */
 char *_strchr(char *s, char c)
 {
-	int i, j;
-	int k = '\0';
-		while (s++)
-		{
-			j++;
-		}
-		for (i = 0; i < j; i++)
+	int i;
+		for (i = 0; s[i] >= '\0'; i++)
 		{
 			if (s[i] == c)
 			{
-				return (s);
-			}
-			if ((i == j) && (k != i))
-			{
-				return ('\0');
+				return (s + i);
 			}
 		}
-	return (s);
+	return (NULL);
 }
