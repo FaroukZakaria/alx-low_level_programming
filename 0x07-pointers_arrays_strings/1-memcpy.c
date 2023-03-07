@@ -4,6 +4,7 @@
  * @dest: d
  * @src: again...
  * @n: ni-
+ * Return: r
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
