@@ -7,7 +7,7 @@ int finder(int n, int i);
  * @i: i
  * Return: boop
  */
-int finder(n, i)
+int finder(int n, int i)
 {
 	int sqrt = i * i;
 		if (sqrt > n)
