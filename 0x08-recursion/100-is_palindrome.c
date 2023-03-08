@@ -1,4 +1,6 @@
 #include "main.h"
+int _len(char *s);
+int iter(char *s, int i, int j);
 /**
  * _len - l
  * @s: su-
@@ -25,7 +27,7 @@ int iter(char *s, int i, int j)
 {
 	if (*(s + i) == *(s + j))
 	{
-		if (n1 == n2 || n1 == n2 + 1)
+		if (i == j || i == j + 1)
 		{
 			return (1);
 		}
