@@ -16,6 +16,7 @@ int _len(char *s)
 	{
 		return (0);
 	}
+}
 /**
  * iter - i
  * @s: su-
