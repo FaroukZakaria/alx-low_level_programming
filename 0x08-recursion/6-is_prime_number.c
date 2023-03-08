@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * is_prime_number - i
+ * _check - c
  * @n: ni-
- * Return: 0, 1
+ * @i: i-
+ * Return: bruh
  */
 int _check(int n, int i)
 {
@@ -21,10 +22,9 @@ int _check(int n, int i)
 	return (_check(n, (i + 1)));
 }
 /**
- * _check - c
+ * is_prime_number - i
  * @n: ni-
- * @i: i-
- * Return: bruh
+ * Return: 0, 1
  */
 int is_prime_number(int n)
 {
