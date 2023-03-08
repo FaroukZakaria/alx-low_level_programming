@@ -34,7 +34,7 @@ int iter(char *s, int i, int j)
 		}
 		else
 		{
-			return (0 + iter(s, i + 1, j - 1);
+			return (0 + iter(s, i + 1, j - 1));
 		}
 	}
 	return (0);
