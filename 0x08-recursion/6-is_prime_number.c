@@ -4,6 +4,12 @@
  * @n: ni-
  * Return: 0, 1
  */
+/**
+ * check - c
+ * @n: ni-
+ * @i: i-
+ * Return: bruh
+ */
 int check(int n, int i)
 {
 	if (n <= 1)
