@@ -3,10 +3,6 @@
  * is_prime_number - i
  * @n: ni-
  * Return: 0, 1
- * _check - c
- * @n: ni-
- * @i: i-
- * Return: bruh
  */
 int _check(int n, int i)
 {
@@ -24,6 +20,12 @@ int _check(int n, int i)
 	}
 	return (_check(n, (i + 1)));
 }
+/**
+ * _check - c
+ * @n: ni-
+ * @i: i-
+ * Return: bruh
+ */
 int is_prime_number(int n)
 {
 	return (_check(n, 1));
