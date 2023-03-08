@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+int finder(int n, int i);
 /**
  * finder - f
  * @n: ni-
