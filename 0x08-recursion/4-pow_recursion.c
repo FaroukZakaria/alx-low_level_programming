@@ -1,4 +1,5 @@
 #include "main.h"
+#include <math.h>
 /**
  * _pow_recursion - a
  * @x: x
@@ -12,6 +13,6 @@ int _pow_recursion(int x, int y)
 		{
 			return (-1);
 		}
-		i = x ** y;
+		i = pow(x, y);
 		return (i);
 }
