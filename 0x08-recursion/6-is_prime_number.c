@@ -3,8 +3,6 @@
  * is_prime_number - i
  * @n: ni-
  * Return: 0, 1
- */
-/**
  * _check - c
  * @n: ni-
  * @i: i-
