@@ -9,7 +9,7 @@ int finder(int n, int i);
  */
 int finder(n, i)
 {
-	int sqrt i * i;
+	int sqrt = i * i;
 		if (sqrt > n)
 		{
 			return (-1);
