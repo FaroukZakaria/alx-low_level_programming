@@ -32,6 +32,10 @@ int iter(char *s, int i, int j)
 		{
 			return (1);
 		}
+		else
+		{
+			return (0 + iter(s, i + 1, j - 1);
+		}
 	}
 	return (0);
 }
