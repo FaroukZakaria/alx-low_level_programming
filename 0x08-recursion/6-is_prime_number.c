@@ -5,12 +5,12 @@
  * Return: 0, 1
  */
 /**
- * check - c
+ * _check - c
  * @n: ni-
  * @i: i-
  * Return: bruh
  */
-int check(int n, int i)
+int _check(int n, int i)
 {
 	if (n <= 1)
 	{
@@ -24,9 +24,9 @@ int check(int n, int i)
 	{
 		return (1);
 	}
-	return (check(n, (i + 1)));
+	return (_check(n, (i + 1)));
 }
 int is_prime_number(int n)
 {
-	return (check(n, 1));
+	return (_check(n, 1));
 }
