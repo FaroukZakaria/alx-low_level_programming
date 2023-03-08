@@ -1,6 +1,8 @@
 #include "main.h"
 /**
  * wildcmp - w
+ * @s1: su-
+ * @s2: su-
  * Return: 0
  */
 int wildcmp(char *s1, char *s2)
