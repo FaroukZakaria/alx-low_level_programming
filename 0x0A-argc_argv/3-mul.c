@@ -16,11 +16,13 @@ int main(int argc, char *argv[])
 				mul *= atoi(argv[i]);
 			}
 			printf("%d\n", mul);
+			printf("\n");
 			return (0);
 		}
 		else
 		{
 			printf("Error\n");
+			printf("\n");
 			return (1);
 		}
 }
