@@ -5,9 +5,9 @@
  * main - e
  * Return: 0
  */
-int main(int argc, argv[])
+int main(int argc, char* argv[])
 {
-	prtinf("%d\n", argc);
+	printf("%d\n", argc);
 	_putchar(argv[0]);
 	return (0);
 }
