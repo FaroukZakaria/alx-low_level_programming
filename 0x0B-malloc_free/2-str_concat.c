@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 			j++;
 		}
 		l = malloc((sizeof(char) * (i + j)) + 1);
-		for (k = 0; k < l; k++)
+		for (k = 0; k < (i + j); k++)
 		{
 			if (s1[k])
 			{
