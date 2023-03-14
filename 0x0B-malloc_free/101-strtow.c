@@ -69,7 +69,7 @@ char **strtow(char *str)
 		{
 			i++;
 		}
-		letter = word_len(str + i);
+		letters = word_len(str + i);
 		strings[w] = malloc(sizeof(char) * (letters + 1));
 		strings[w][l] = '\0';
 	}
