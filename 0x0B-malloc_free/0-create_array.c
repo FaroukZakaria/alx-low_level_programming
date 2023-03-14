@@ -12,7 +12,7 @@ char *create_array(unsigned int size, char c)
 	unsigned int i;
 		if (size == 0)
 		{
-			return;
+			return NULL;
 		}
 		else
 		{
@@ -20,6 +20,11 @@ char *create_array(unsigned int size, char c)
 		}
 		if (s == NULL)
 		{
-			return;
+			return NULL;
 		}
+		for (i = 0; i < sizel i++)
+		{
+			array[i] = c;
+		}
+		return (array);
 }
