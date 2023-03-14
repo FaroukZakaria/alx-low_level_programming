@@ -8,9 +8,9 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char array[]
+	char array[];
 	int i;
-		for (i = 0; i < size; i++)
+		for (i = 0; i < atoi(size); i++)
 		{
 			char array[i] = c;
 		}
