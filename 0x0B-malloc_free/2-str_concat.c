@@ -33,11 +33,11 @@ char *str_concat(char *s1, char *s2)
 		}
 		for (k = 0; k < (i + j); k++)
 		{
-			if (s1[k])
+			if (k <= i)
 			{
 				l[k] = s1[k];
 			}
-			else if (s2[(k - i)])
+			if (k >= i)
 			{
 				l[k] = s2[(k - i)];
 			}
