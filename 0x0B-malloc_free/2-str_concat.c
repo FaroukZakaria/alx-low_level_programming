@@ -33,7 +33,7 @@ char *str_concat(char *s1, char *s2)
 			return (NULL);
 		}
 		j = 0;
-		for (k = 0; k < m; k++)
+		while (k < l)
 		{
 			if (k <= i)
 			{
@@ -41,9 +41,10 @@ char *str_concat(char *s1, char *s2)
 			}
 			if (k >= i)
 			{
-				l[k] = s2[(m)];
+				l[k] = s2[j];
 				j++;
 			}
+			k++;
 		}
 		l[k] = '\0';
 		return (l);
