@@ -37,9 +37,9 @@ char *str_concat(char *s1, char *s2)
 			{
 				l[k] = s1[k];
 			}
-			else if (s2[k])
+			else if (s2[(k - i)])
 			{
-				l[k] = s2[k];
+				l[k] = s2[(k - i)];
 			}
 			else
 			{
