@@ -19,7 +19,7 @@ char *_strdup(char *str)
 		}
 		else
 		{
-			return (*(s + 0));
+			return ((s + 0));
 		}
-		return (*s);
+		return (s);
 }
