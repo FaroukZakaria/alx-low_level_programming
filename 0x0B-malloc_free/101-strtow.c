@@ -49,43 +49,43 @@ char **strtow(char *str)
 {
 	char **strings;
 	int i = 0, words, w, letters, l;
-	if (str == NULL || str[0] == '\0')
-	{
-		return (NULL);
-	}
-	words = count_words(str);
-	if (words == 0)
-	{
-		return (NULL);
-	}
-	strings = malloc(sizeof(char *) * (words + 1));
-	if (strings == NULL)
-	{
-		return (NULL);
-	}
-	for (w = 0; w < words; w++)
-	{
-		while (str[i] == ' ')
+		if (str == NULL || str[0] == '\0')
 		{
-			i++;
-		}
-		letters = word_len(str + i);
-		strings[w] = malloc(sizeof(char) * (letters + 1));
-		if (strings[w] == NULL)
-		{
-			for (; w >= 0; w--)
-			{
-				free(strings[w]);
-			}
-			free(strings);
 			return (NULL);
 		}
-		for (l = 0; l < letters; l++)
+		words = count_words(str);
+		if (words == 0)
 		{
-			strings[w][l] = str[i++];
+			return (NULL);
 		}
-		strings[w][l] = '\0';
-	}
-	strings[w] = NULL;
-	return (strings);
+		strings = malloc(sizeof(char *) * (words + 1));
+		if (strings == NULL)
+		{
+			return (NULL);
+		}
+		for (w = 0; w < words; w++)
+		{
+			while (str[i] == ' ')
+			{
+				i++;
+			}
+			letters = word_len(str + i);
+			strings[w] = malloc(sizeof(char) * (letters + 1));
+			if (strings[w] == NULL)
+			{
+				for (; w >= 0; w--)
+				{
+					free(strings[w]);
+				}
+				free(strings);
+				return (NULL);
+			}
+			for (l = 0; l < letters; l++)
+			{
+				strings[w][l] = str[i++];
+			}
+			strings[w][l] = '\0';
+		}
+		strings[w] = NULL;
+		return (strings);
 }
