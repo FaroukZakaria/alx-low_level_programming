@@ -4,10 +4,10 @@
 #include <limits.h>
 
 /**
- * main - multiplies two positive numbers
- * @argc: n arguments
- * @argv: args
- * Return: int
+ * main - s
+ * @argc: s
+ * @argv: s
+ * Return: s
  */
 
 int main(int argc, char *argv[])
