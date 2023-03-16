@@ -3,15 +3,14 @@
 /**
  * malloc_checked - s
  * @b: s
+ * Return: how return when it's void???
  */
 void *malloc_checked(unsigned int b)
 {
-	if (unsigned int b)
+	malloc(b);
+	if (malloc(b) == NULL)
 	{
-		malloc(unsigned int b);
+		return (98);
 	}
-	else
-	{
-		exit(98);
-	}
+	return (malloc(b));
 }
