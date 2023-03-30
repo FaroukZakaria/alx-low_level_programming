@@ -3,7 +3,6 @@
 #include <stdlib.h>
 /**
  * print_list - s
- * @list_t: s
  * @h: s
  * Return: s
  */
