@@ -2,7 +2,7 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
- * print_list_int - s
+ * print_listint - s
  * @h: s
  * Return: s
  */
