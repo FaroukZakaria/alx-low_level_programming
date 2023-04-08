@@ -11,13 +11,14 @@ void print_binary(unsigned long int n)
 
 	for (i = 0; i < 8; i++)
 	{
-		if (i & mask)
+		if (n & mask)
 		{
 			_putchar('1');
 		}
 		else
 		{
-			_putchar('1');
+			_putchar('0');
 		}
+		mask >>= 1;
 	}
 }
