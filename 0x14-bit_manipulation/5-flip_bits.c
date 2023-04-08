@@ -7,24 +7,13 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned long int i = 0, j = 0;
+	unsigned long int i, j = 0;
 
-	while (n)
+	i = n ^ m;
+	while (i)
 	{
-		n >>= 1;
-		i++;
+		j += i & 1;
+		i >>= 1;
 	}
-	while (m)
-	{
-		m >>= 1;
-		j++;
-	}
-	if (i > j)
-	{
-		return (i - j);
-	}
-	else
-	{
-		return (j - i);
-	}
+	return (j);
 }
