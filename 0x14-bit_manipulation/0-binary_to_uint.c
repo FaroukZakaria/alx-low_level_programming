@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <string.h>
 /**
  * binary_to_uint - s
  * @b: s
@@ -6,14 +8,15 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int i = sizeof(b) - 1, j, sum = 0, k = 1;
+	int i = strlen(b) - 1, sum = 0;
+	int j, k = 1;
 	
 	if (b == NULL)
 	{
 		return (0);
 	}
 	
-	for (j = 0; *b != '\0'; j++)
+	for (j = 0; b[j] != '\0'; j++)
 	{
 		if (b[j] > '1' || b[j] < '0')
 		{
