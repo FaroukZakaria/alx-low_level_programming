@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 /**
  * print_binary - s
  * @n: s
@@ -7,9 +8,10 @@
  */
 void print_binary(unsigned long int n)
 {
-	int i, mask = 1 << 7;
+	unsigned long int mask = 1UL << 31;
+	int i;
 
-	for (i = 0; i < 8; i++)
+	for (i = 0; i < 32; i++)
 	{
 		if (n & mask)
 		{
