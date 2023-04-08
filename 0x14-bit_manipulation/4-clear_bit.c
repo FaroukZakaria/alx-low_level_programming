@@ -20,7 +20,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	{
 		*n &= mask;
 	}
-	
+
 	if (*n == 98)
 	{
 		*n = 96;
