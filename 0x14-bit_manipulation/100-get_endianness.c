@@ -8,5 +8,5 @@ int is_little_endian(void)
 	int num = 1;
 	char *mem = (char *)&num;
 
-	return (*mem == 1);
+	return (mem[0] == 1);
 }
