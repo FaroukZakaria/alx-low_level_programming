@@ -6,7 +6,7 @@
 int is_little_endian(void)
 {
 	int num = 1;
-	char *mem = (char *)&num;
+	char *c = (char *)&num;
 
-	return (mem[0] == 1);
+	return (*c == 1);
 }
