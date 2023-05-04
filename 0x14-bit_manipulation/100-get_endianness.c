@@ -3,10 +3,10 @@
  * get_endianness - s
  * Return: s
  */
-int is_little_endian(void)
+int get_endianness(void)
 {
-	unsigned int x = 1;
-	char *c = (char *)&x;
+	unsigned int num = 1;
+	char *c = (char *)&num;
 
 	return (*c == 1);
 }
