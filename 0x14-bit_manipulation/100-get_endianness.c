@@ -5,8 +5,8 @@
  */
 int is_little_endian(void)
 {
-	int num = 1;
-	char *c = (char *)&num;
+	unsigned int x = 1;
+	char *c = (char *)&x;
 
 	return (*c == 1);
 }
