@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include "main.h"
 #include <unistd.h>
+#include <sys/stat.h>
+#include <string.h>
 /**
  * create_file - s
  * @filename: s
@@ -11,24 +13,41 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	FILE *file2;
+	int file, len = 0, ret = -1;
+	mode_t data;
+	struct stat st;
 
-	mode_t old_mask = umask(S_IWGRP | S_IWOTH);
-
-	file2 = fopen(filename, "wb");
-	if (file2 == NULL)
+	if (filename == NULL)
 	{
 		return (-1);
 	}
-	if (fputs(text_content, file2) == EOF)
+	if (stat(filename, &st) == 0)
 	{
-		fclose(file2);
+		data = umask(0);
+		file = open(filename, O_WRONLY | O_TRUNC);
+		umask(data);
+		if (file < 0)
+		{
+			return (-1);
+		}
+	}
+	else
+	{
+		file = open(filename, O_WRONLY|O_CREAT, S_IRUSR|S_IWUSR);
+		if (file < 0)
+		{
+			return (-1);
+		}
+	}
+	if (text_content != NULL)
+	{
+		len = strlen(text_content);
+		ret = write(file, text_content, len);
+	}
+	close(file);
+	if (ret < len)
+	{
 		return (-1);
 	}
-	if (fclose(file2) == EOF)
-	{
-		return (-1);
-	}
-	umask(old_mask);
-	return (0);
+	return (1);
 }
