@@ -18,8 +18,8 @@ void free_dlistint(dlistint_t *head)
 		tmp->next = NULL;
 		tmp->prev = NULL;
 		head->prev = NULL;
-		free (tmp);
+		free(tmp);
 	}
 	tmp = head;
-	free (tmp);
+	free(tmp);
 }
