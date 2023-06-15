@@ -18,7 +18,6 @@ void free_dlistint(dlistint_t *head)
 		tmp->next = NULL;
 		tmp->prev = NULL;
 		head->prev = NULL;
-		printf("freeing\n");
 		free (tmp);
 	}
 	tmp = head;
