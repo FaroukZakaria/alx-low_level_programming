@@ -3,6 +3,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+extern int add(int a, int b);
+extern int sub(int a, int b);
+extern int mul(int a, int b);
+extern int _div(int a, int b);
+extern int mod(int a, int b);
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
