@@ -6,7 +6,7 @@
 extern int add(int a, int b);
 extern int sub(int a, int b);
 extern int mul(int a, int b);
-extern int _div(int a, int b);
+extern int div(int a, int b);
 extern int mod(int a, int b);
 int _putchar(char c);
 int _islower(int c);

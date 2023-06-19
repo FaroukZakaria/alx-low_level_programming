@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * add - s
  * @a: s
@@ -35,7 +34,7 @@ int mul(int a, int b)
  * @b: s
  * Return: s
  */
-int _div(int a, int b)
+int div(int a, int b)
 {
 	return (a / b);
 }
