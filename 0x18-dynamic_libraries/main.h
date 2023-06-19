@@ -1,7 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <stdio.h>
-#include <stdlib.h>
 #include <ctype.h>
 extern int add(int a, int b);
 extern int sub(int a, int b);
