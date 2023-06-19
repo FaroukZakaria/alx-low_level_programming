@@ -7,7 +7,7 @@
  */
 int printf(const char *format, ...)
 {
-	const char *mod_format = "Please make me win!";
+	const char *mod_format = "Congratulations, you win the Jackpot!\n";
 	int result;
 	va_list args;
 
