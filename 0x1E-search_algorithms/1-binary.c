@@ -24,7 +24,7 @@ int binary_search(int *array, size_t size, int value)
 				printf(", ");
 			if (flag == 0)
 				flag = 1;
-			printf("%ld", i);
+			printf("%lu", i);
 		}
 		printf("\n");
 		mid = (low + high) / 2;
